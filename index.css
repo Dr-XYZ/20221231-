@@ -1,0 +1,68 @@
+.app{
+    border: 3px solid rgb(236,119,17);
+    padding: 10px;
+    box-sizing: border-box;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.tit{
+    display: flex;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+
+.input{
+    width: 100%;
+    height:25px;
+    color: black;
+}
+
+.add{
+    background-color:#FFF3CD;
+    color: #8a6d3b;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px #ffeeba;
+    padding:14px;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+.del{
+    background-color: #F2DEDE;
+    color: #a94442;
+    width: 100%;
+    height: 50px;
+    border: 0px;
+    box-sizing: border-box;
+    padding:14px;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+.btn:hover{
+    transform: scale(1.005);
+    cursor: pointer;
+    transition: .1s
+}
+.btn:active{
+    transform: scale(1);
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .2);
+    transition: .1s
+}
+
+.body{
+    background-color:#1e1e1e;
+    color: aliceblue;
+}
+
